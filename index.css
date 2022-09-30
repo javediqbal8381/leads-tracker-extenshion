@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(80, 102, 102);
+    background-color: antiquewhite;
+    font-size: 25px;
+
+}
+.main-div{
+    display:flex;
+    flex-direction: column;
+    width: 50vh;
+    margin-left: 40%;
+    align-items: center;
+    justify-content: center;
+}
+.main-div button{
+   width: 30% ;
+   margin-top: 3%;
+   font-size:50% ;
+}
+.main-div button:hover{
+   color: blue;
+   
+ }
