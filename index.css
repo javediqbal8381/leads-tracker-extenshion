@@ -1,25 +1,50 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 10px;
     color: rgb(80, 102, 102);
-    background-color: antiquewhite;
     font-size: 25px;
+    padding-right: 10px;
+    min-width: 300px;
+    max-width: 400px;
+    
+    
 
 }
-.main-div{
-    display:flex;
-    flex-direction: column;
-    width: 50vh;
-    margin-left: 40%;
-    align-items: center;
-    justify-content: center;
+#disly{
 }
-.main-div button{
-   width: 30% ;
-   margin-top: 3%;
-   font-size:50% ;
+
+
+button{
+    margin-top: 10px;
+    min-width:5px;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 50%;
+    font-size: 15px;
+    
 }
-.main-div button:hover{
-   color: blue;
-   
- }
+button:hover{
+    box-shadow: 3px 2px 4px 2px yellow;
+    color: black;
+}
+
+
+
+
+
+ul{
+    list-style: none;
+    padding-left: 0px;
+}
+ul li{
+    border: solid red;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    
+}
+a{
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    text-decoration: none;
+}
